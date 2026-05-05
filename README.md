@@ -1,19 +1,22 @@
-Self-graded Assignment 1 Checklist
+# Assignment 1
 
-    Criteria	
-    ========
-[x]  A home page links to signup and login, if not logged in; and links to members and signout, if logged in.
-[x]  A members page that displays 1 of 3 random images stored on the server.
-[x]  The members page will redirect to the home page if no valid session is found.
-[x]  The signout buttons end the session.
-[x]  All secrets, encryption keys, database passwords are stored in a .env file.
+A web application with user authentication, session management, and protected routes.
 
-[x]  The .env file is NOT in your git repo.
-[x]  Password is BCrypted in the MongoDB database.
-[x]  Your site is hosted in a hosting service like Render.
-[x]  A 404 page that "catches" all invalid page hits and that sets the status code to 404.
-[x]  Session information is stored in an encrypted MongoDB session database. Sessions expire after 1 hour.
- 
-/50 (Total grade out of 50, 5 marks each x 10 items)
+## Grading Checklist
 
-*Note items are considered *fully* complete (marked with an x inside the box: [x]), OR incomplete (box is left empty: [ ])
+| # | Criteria | Status |
+|---|----------|--------|
+| 1 | Home page links to signup and login (logged out) / links to members and signout (logged in) | Complete |
+| 2 | Members page displays 1 of 3 random images stored on the server | Complete |
+| 3 | Members page redirects to home page if no valid session is found | Complete |
+| 4 | Signout button ends the session | Complete |
+| 5 | All secrets, encryption keys, and database passwords are stored in a `.env` file | Complete |
+| 6 | `.env` file is NOT committed to the git repo | Complete |
+| 7 | Password is BCrypted in the MongoDB database | Complete |
+| 8 | Site is hosted on a hosting service (e.g. Render) | Complete |
+| 9 | 404 page catches all invalid routes and returns a 404 status code | Complete |
+| 10 | Session data is stored in an encrypted MongoDB session store and expires after 1 hour | Complete |
+
+**Total: 50 / 50** (5 marks each x 10 items)
+
+> Items are graded as fully complete `[x]` or incomplete `[ ]`. No partial credit.
